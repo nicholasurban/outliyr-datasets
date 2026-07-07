@@ -8,7 +8,7 @@ Every dataset here is measured with professional instruments (spectroradiometer,
 
 | Dataset | Contents | Status |
 |---|---|---|
-| light-therapy-panels | Measured vs claimed irradiance, spectral data, and pricing for red light therapy panels | Publishing soon (live interactive version: [comparison database](https://outliyr.com/app/light-therapy-comparison)) |
+| [light-therapy-devices](light-therapy-devices/) | 76 devices: measured vs claimed irradiance, wavelengths, flicker, EMF, pricing | **Live** (interactive: [comparison database](https://outliyr.com/app/light-therapy-comparison)) |
 | state-of-biohacking | Survey results: what biohackers actually practice, spend, and prioritize | Publishing soon (live report: [State of Biohacking & Longevity](https://outliyr.com/state-of-biohacking-and-longevity)) |
 
 ## License and citation
