@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Outliyr Open Datasets
+message: If you use this data, please cite it as below.
+authors:
+  - family-names: Urban
+    given-names: Nick
+    affiliation: Outliyr
+repository-code: https://github.com/nicholasurban/outliyr-datasets
+url: https://outliyr.com
+license: CC-BY-4.0
