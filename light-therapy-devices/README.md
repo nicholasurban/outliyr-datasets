@@ -4,7 +4,8 @@ Device index for red/NIR panels, wearables, brain PBM, full-spectrum lamps, and 
 
 ## Sources and observation status
 
-- `verified` identifies an Outliyr hands-on observation only when the record documents compatible test context under the published [testing methodology](https://outliyr.com/light-therapy-testing-methodology): the observation's origin, distance, geometry, device mode, unit, and source or test-run details.
+- `verified` is a legacy product-level tier indicating that Outliyr tested the device hands-on. It does **not** establish the source, distance, geometry, device mode, or test-run details of every value on that product's record.
+- An individual Outliyr observation is comparison-eligible only when its record documents compatible test context under the published [testing methodology](https://outliyr.com/light-therapy-testing-methodology): origin, distance, geometry, device mode, unit, and source or test-run details.
 - `spec-sheet` identifies a manufacturer claim. A manufacturer claim is retained at its native stated conditions and is not an Outliyr measurement.
 - `community` identifies a user-submitted record. It is not an Outliyr measurement unless separately documented as one.
 
