@@ -8,7 +8,7 @@ For details on an independent light-therapy test, see the published [testing met
 
 | Dataset | Contents | Status |
 |---|---|---|
-| [light-therapy-devices](light-therapy-devices/) | Device index with independently observed measurements where documented, manufacturer specifications, pricing, and other labeled fields | **Live** (interactive: [comparison database](https://outliyr.com/app/light-therapy-comparison)) |
+| [light-therapy-devices](light-therapy-devices/) | Canonical product index and per-observation provenance CSVs; see the dataset README for the release contract and legacy boundary | **Live** (interactive: [comparison database](https://outliyr.com/app/light-therapy-comparison)) |
 | state-of-biohacking | Survey results: what biohackers actually practice, spend, and prioritize | Published separately: [report](https://outliyr.com/state-of-biohacking-and-longevity), [CSV](https://raw.githubusercontent.com/nicholasurban/state-of-biohacking-and-longevity/main/state-of-biohacking-and-longevity.csv), [GitHub](https://github.com/nicholasurban/state-of-biohacking-and-longevity), [DOI](https://doi.org/10.5281/zenodo.20320083) |
 
 ## License and citation
@@ -16,5 +16,7 @@ For details on an independent light-therapy test, see the published [testing met
 CC BY 4.0: free to use, share, and adapt, including commercially, **with attribution**.
 
 Suggested citation: "Outliyr [dataset name], [version or access date], outliyr.com" with a link to this repository or the live dataset page. Cite the specific record and its source or observation metadata when relying on a value.
+
+The current light-therapy release uses a corrected two-file schema. The previous 27-column device CSV remains available only through the immutable `v2026.07.0` tag and Git history; it is a historical snapshot, not the current comparison source.
 
 Custom category cuts available on request: hello@outliyr.com
