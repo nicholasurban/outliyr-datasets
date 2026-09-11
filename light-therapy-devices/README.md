@@ -9,7 +9,7 @@ The current release has two canonical CSVs, generated from the same validated co
 - [`light-therapy-products.csv`](light-therapy-products.csv) is one row per product. Its columns are `product_id`, `slug`, `title`, `subtype`, `trust_tier`, `price_usd`, `comparison_member`, `comparison_eligible_at_12in`, `comparable_irradiance_mw_cm2`, `comparison_context_key`, and `observation_count`.
 - [`light-therapy-measurements.csv`](light-therapy-measurements.csv) is one row per observation. Its columns are `product_id`, `slug`, `observation_index`, `metric`, `value`, `unit`, `origin`, `distance_in`, `geometry`, `device_mode`, `spectrum_coverage`, `comparison_cohort`, `method_id`, `method_version`, `test_run_id`, `tested_at`, `instrument`, `source_url`, `source_captured_at`, `status`, `legacy_source_field`, `comparison_eligible_at_12in`, `dose_reference_eligible`, and `ineligibility_reason`.
 
-`light-therapy-devices.csv` is a compatibility alias that is byte-identical to `light-therapy-products.csv`. It intentionally replaces the prior 27-column CSV with the corrected product-index schema. Consumers of the old field layout must migrate to the two canonical files.
+`light-therapy-devices.csv` is a compatibility alias that is byte-identical to `light-therapy-products.csv`. It intentionally replaces the prior 28-column CSV with the corrected product-index schema. Consumers of the old field layout must migrate to the two canonical files.
 
 The row counts are release-specific. Read the committed files or release notes for the count in a given version rather than assuming a fixed catalog size.
 
@@ -36,7 +36,7 @@ The dataset's maintained comparison outputs should use only observations with do
 
 ## Other fields
 
-The previous 27-column CSV included wavelengths, flicker, EMF, noise, ratings, and other non-irradiance fields. Those values are preserved in the immutable [`v2026.07.0`](https://github.com/nicholasurban/outliyr-datasets/tree/v2026.07.0) release and Git history, where their older source and geometry limitations remain visible. They are intentionally omitted from the current canonical files until each field has a validated source and export contract. Their omission does not establish that a device lacks the property.
+The previous 28-column CSV included wavelengths, flicker, EMF, noise, ratings, and other non-irradiance fields. Those values are preserved in the immutable [`v2026.07.0`](https://github.com/nicholasurban/outliyr-datasets/tree/v2026.07.0) release and Git history, where their older source and geometry limitations remain visible. They are intentionally omitted from the current canonical files until each field has a validated source and export contract. Their omission does not establish that a device lacks the property.
 
 ## Historical release boundary
 

@@ -17,6 +17,6 @@ CC BY 4.0: free to use, share, and adapt, including commercially, **with attribu
 
 Suggested citation: "Outliyr [dataset name], [version or access date], outliyr.com" with a link to this repository or the live dataset page. Cite the specific record and its source or observation metadata when relying on a value.
 
-The current light-therapy release uses a corrected two-file schema. The previous 27-column device CSV remains available only through the immutable `v2026.07.0` tag and Git history; it is a historical snapshot, not the current comparison source.
+The current light-therapy release uses a corrected two-file schema. The previous 28-column device CSV remains available only through the immutable `v2026.07.0` tag and Git history; it is a historical snapshot, not the current comparison source.
 
 Custom category cuts available on request: hello@outliyr.com
