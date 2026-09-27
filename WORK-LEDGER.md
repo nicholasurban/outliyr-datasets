@@ -14,4 +14,10 @@ Machine source: `WORK-LEDGER.jsonl`
 
 | ID | Status | Surface | Request | Proof still missing | Reopens |
 |---|---|---|---|---|---|
-| None | done | None | All ledger items are done | None | 0 |
+| None | None | None | No active unfinished items | None | 0 |
+
+## DEFERRED / SUPERSEDED (NOT ACTIVE WORK)
+
+| ID | Status | Surface | Request | Disposition |
+|---|---|---|---|---|
+| None | None | None | No deferred or superseded items | None |
